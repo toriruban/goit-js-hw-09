@@ -1,0 +1,22 @@
+.main-nav{
+    position: fixed;        
+    top: 20px;     
+    left: 40%;       
+}
+
+.link-class{
+    font-size: 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;           
+    gap: 20px;                
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-nav a {
+ padding: 50px 0 50px 0;
+}
