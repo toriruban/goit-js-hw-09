@@ -83,4 +83,4 @@ const createImageCardTemplate = images.map(({ original, preview, description }) 
 
 galleryEl.insertAdjacentHTML('beforeend', createImageCardTemplate);
 
-new SimpleLightbox('.gallery, a', {captionsData: 'alt', captionDelay: 250});
+new SimpleLightbox('.gallery a', {captionsData: 'alt', captionDelay: 250});
